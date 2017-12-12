@@ -1,0 +1,105 @@
+{
+    "name": "Quentin Tarantino",
+    "children":
+    [
+        {
+            "name": "Reservoir Dogs", "size": 7, "year": 1992, "poster": "posters/action3.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#4C3F3D"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#8A747A"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#BE9DA5"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#100E0A"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#9D8FA0"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#6E6470"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#281109"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#6D6D6D"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#A1A496"
+                }
+            ]
+        },
+        {
+            "name": "Pulp Fiction", "size": 8, "year": 1994, "poster": "posters/action2.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#462D26"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#C9B1AB"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#94685F"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#A7A9A4"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#737269"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#130B09"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#675A4D"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#9195A1"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#5C5D6B"
+                }
+            ]
+        },
+        {
+            "name": "The Hateful Eight", "size": 10, "year": 2015, "poster": "posters/action5.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#4DB194"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#171D2E"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#96B6C7"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#243047"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#2B405A"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#83ACBF"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#7FA3BC"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#2A343C"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#1C446C"
+                }
+            ]
+        }
+    ]
+}

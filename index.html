@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta http-equiv="Cache-control" content="no-cache">
+<head>
+
+</head>
+<body>
+<div id="logo">
+    <a href="">
+        <img src="A.png" height="200px"  style="position:relative; LEFT:500px;"/>
+    </a>
+</div>
+<script src="d3.v3.min.js"></script>
+
+<select id="jason">
+	<option value="chazelle">Damien Chazelle</option>
+	<option value="miyazaki">Hayao Miyazaki</option>
+	<option value="linklater">Richard Linklater</option>
+	<option value="tarantino">Quentin Tarantino</option>
+	<option value="carney">John Carney</option>
+	<option value="hitchcock">Alfred Hitchcock</option>
+	<option value="general">Movie Genre</option>
+</select>
+
+<button id="myButton" type="button" style="position:absolute; bottom:6.5%; left:70%">Directors</button>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "comp_directors.html";
+    };
+</script>
+
+<style type="text/css">
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 20px;
+  height: 33px;
+  padding: 8px;
+  font: 10px sans-serif;
+  border-radius: 8px;
+  pointer-events: none;
+}
+</style>
+
+<script>
+var width =660,
+    height = 550,
+    radius = (Math.min(width, height) / 2)-10;
+
+function init()
+{
+    formatNumber = d3.format(",d");
+
+    x = d3.scale.linear()
+    .range([0, 2 * Math.PI]);
+
+    y = d3.scale.sqrt()
+    .range([0, radius]);
+
+    color = d3.scale.category20c();
+
+    partition = d3.layout.partition()
+    .value(function(d) { return d.size; });
+
+    arc = d3.svg.arc()
+    .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x))); })
+    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x + d.dx))); })
+    .innerRadius(function(d) { return Math.max(0, y(d.y)); })
+    .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
+
+    svg = d3.select("body").append("svg")
+    .attr("width", width+300)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + (550) + "," + (height / 2) + ")");
+    
+    div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 1e-6);
+}
+
+//init()
+    //d3.select('#chartviz').select("svg").remove();
+    
+//var selected="general.json";
+//select_jason=document.getElementById("jason").value;
+//select_jason=select_jason+".json";
+
+d3.select("#jason").on("click",function() {
+            if(d3.select(this).property("value")=="chazelle")
+            {
+                d3.select("body").select("svg").remove();
+                init()
+                asd("chazelle.json")
+            }
+            else if(d3.select(this).property("value")=="miyazaki")
+            {
+                d3.select("body").select("svg").remove();
+                init()
+                asd("miyazaki.json")
+            }
+            else if(d3.select(this).property("value")=="linklater")
+            {
+                d3.select("body").select("svg").remove();
+                init()
+                asd("linklater.json")
+            }
+            else if(d3.select(this).property("value")=="tarantino")
+            {
+                d3.select("body").select("svg").remove();
+                init()
+                asd("tarantino.json")
+            }
+            else if(d3.select(this).property("value")=="carney")
+            {
+                d3.select("body").select("svg").remove();
+                init()
+                asd("carney.json")
+            }
+            else if(d3.select(this).property("value")=="hitchcock")
+            {
+                d3.select("body").select("svg").remove();
+                init()
+                asd("hitchcock.json")
+            }
+            else
+            {
+                d3.select("body").select("svg").remove();
+                init()
+                asd("general.json")
+            }
+        }
+    )
+init()
+asd("general.json")
+function asd(select_jason)
+{
+    d3.json(select_jason, function(error, root) {
+        if (error) throw error; 
+  
+    svg.selectAll("path")
+        .data(partition.nodes(root))
+        .enter().append("path")
+        .attr("d", arc)
+        .style("fill", function(d) { return color1(d);})
+        .on("click", click)
+        .on("mouseover", mouseover)
+        .on("mousemove", mousemove)
+        .on("mouseout", mouseout)
+        .append("title")
+        .text(function(d) { if (d.year){return "Name : " + d.name + "\n" + "Box Office : " + formatNumber(d.size) +"$"+"\n" + "Year : " + formatNumber(d.year);} else {return d.name }});
+});
+}
+function color1(d)
+	{
+	if(!d.color)
+	{
+		//return "blue";
+		//return color(d.name);
+		if(d.name=="Romance")
+			return "#D31360";
+		else if(d.name=="Drama")
+			return "#6E6E6E";
+		else if(d.name=="Musical")
+			return "#8904B1";
+		else if(d.name=="Animation")
+			return "#5882FA";
+		else if(d.name=="Indie")
+			return "#2EFEC8";
+		else if(d.name=="Sci-fi")
+			return "#04B404";
+		else if(d.name=="Comedy")
+			return "#F7FE2E";
+		else if(d.name=="Action")
+			return "#0000FF";
+		else if(d.name=="Noir")
+			return "#585858";
+		else if(d.name=="Horror")
+			return "#000000";
+		else if(d.name=="Documental")
+			return "#088A4B";
+		else
+			return color(d.name);
+	}
+	else
+	{
+		return d.color;
+		//return color(d.name);
+		//return "blue";
+	}
+}
+
+function mouseover(d)
+{
+    if(d.year)
+    {
+        div.transition()
+      .duration(500)
+      .style("opacity", 1);
+    }
+}
+function mousemove(d)
+{
+    if(d.poster)
+    {
+        div
+        .html("<img src='"+d.poster+"' style='height:215px;width:150px;'>")
+            .style("left", (d3.event.pageX - 10) + "px")
+            .style("top", (d3.event.pageY - 200) + "px");
+    }
+    if(d.scene)
+    {
+        div
+        .html("<img src='"+d.scene+"' style='height:180px;width:460px;'>")
+            .style("left", (d3.event.pageX - 10) + "px")
+            .style("top", (d3.event.pageY - 200) + "px");
+    }
+}
+function mouseout(d)
+{
+    if(d.year)
+    {
+        div.transition()
+      .duration(500)
+      .style("opacity", 1e-6);
+    }
+}
+
+function click(d) {
+  svg.transition()
+      .duration(750)
+      .tween("scale", function() {
+        var xd = d3.interpolate(x.domain(), [d.x, d.x + d.dx]),
+            yd = d3.interpolate(y.domain(), [d.y, 1]),
+            yr = d3.interpolate(y.range(), [d.y ? 20 : 0, radius]);
+        return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); };
+      })
+    .selectAll("path")
+      .attrTween("d", function(d) { return function() { return arc(d); }; });
+}
+
+d3.select(self.frameElement).style("height", height + "px");
+d3.select("body").style("background-color","white")
+
+</script>
+

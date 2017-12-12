@@ -1,0 +1,105 @@
+{
+    "name": "Hayao Miyazaki",
+    "children":
+    [
+        {
+            "name": "My Neighbor Totoro", "size": 2400000, "year": 1988, "poster": "posters/animation2.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#997553"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#1C1C1D"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#6C5241"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#493B32"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#7F7D7A"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#514C48"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#716A6E"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#911D24"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#3C424C"
+                }
+            ]
+        },
+        {
+            "name": "Porco Rosso", "size":34000000, "year": 1992, "poster": "posters/animation5.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#B0AB90"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#182428"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#6B978C"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#A52106"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#307680"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#6A3224"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#246569"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#0E4B60"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#354745"
+                }
+            ]
+        },
+        {
+            "name": "The Wind Rises", "size": 5, "year": 2013, "poster": "posters/animation9.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#839EA7"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#3D3E38"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#C7ADA6"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#3B4353"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#2C667B"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#7C615D"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#4D92A3"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#96C4C3"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#6D687D"
+                }
+            ]
+        }
+    ]
+}

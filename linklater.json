@@ -1,0 +1,105 @@
+{
+    "name": "Richard Linklater",
+    "children":
+    [
+        {
+            "name": "Before Sunrise", "size": 4, "year": 1995, "poster": "posters/romance1.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#E8E8D4"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#1D1A1A"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#727162"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#8E9878"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#4C3C37"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#61739B"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#535F6F"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#414B68"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#9C8C87"
+                }
+            ]
+        },
+        {
+            "name": "Before Sunset", "size": 9, "year": 2004, "poster": "posters/romance2.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#201917"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#948882"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#6B5145"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#4A352E"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#524C47"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#872C2C"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#7C7C7C"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#7B747C"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#4C444C"
+                }
+            ]
+        },
+        {
+            "name": "Before Midnight", "size": 11, "year": 2013, "poster": "posters/romance3.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#8B8C85"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#12191C"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#CDCECB"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#433328"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#574936"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#A9AFB6"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#4A5A60"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#B3BCBE"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#68574B"
+                }
+            ]
+        }
+    ]
+}

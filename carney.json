@@ -1,0 +1,105 @@
+{
+    "name": "Damien Chazelle",
+    "children":
+    [
+        {
+            "name": "Once", "size": 23300000, "year": 2006, "poster": "posters/musical7.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#CCB9B0"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#6C4B42"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#151715"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#A08677"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#AFAAA7"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#A1584A"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#681718"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#877374"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#9898A4"
+                }
+            ]
+        },
+        {
+            "name": "Begin Again", "size": 63500000, "year": 2013, "poster": "posters/musical2.jpg",
+                "children":
+                [
+                    {
+                        "name": "Escena1", "size": 1,"color":"#C4530A"
+                    },
+                    {
+                        "name": "Escena2", "size": 1,"color":"#FBF3E4"
+                    },
+                    {
+                        "name": "Escena3", "size": 1,"color":"#321209"
+                    },
+                    {
+                        "name": "Escena4", "size": 1,"color":"#651906"
+                    },
+                    {
+                        "name": "Escena5", "size": 1,"color":"#090505"
+                    },
+                    {
+                        "name": "Escena6", "size": 1,"color":"#1E0B09"
+                    },
+                    {
+                        "name": "Escena7", "size": 1,"color":"#804C14"
+                    },
+                    {
+                        "name": "Escena8", "size": 1,"color":"#23140B"
+                    },
+                    {
+                        "name": "Escena9", "size": 1,"color":"#7E0C2C"
+                    }
+                ]
+        },
+        {
+            "name": "Sing Street", "size": 13600000, "year": 2016, "poster": "posters/musical8.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#ACA291"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#191915"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#7A7057"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#574D36"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#5F6757"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#3D4033"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#919E9A"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#839098"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#4E5960"
+                }
+            ]
+        }
+    ]
+}

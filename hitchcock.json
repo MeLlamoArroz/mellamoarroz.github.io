@@ -1,0 +1,171 @@
+{
+    "name": "Alfred Hitchcock",
+    "children":
+    [
+        {
+            "name": "North by Northwest", "size": 9800000, "year": 1959, "poster": "posters/drama5.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#92A3B1"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#070708"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#566994"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#7F605D"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#52312D"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#585761"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#303860"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#2E2E37"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#A08C64"
+                }
+            ]
+        },
+        {
+            "name": "Notorious", "size": 24500000, "year": 1946, "poster": "posters/drama6.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#272727"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#7A7A7A"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#AEAEAE"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#9C9C9C"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#949494"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#686868"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#8C8C8C"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#5C5C5C"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#545454"
+                }
+            ]
+        },
+        {
+            "name": "Rear Window", "size": 36800000 , "year": 1954, "poster": "posters/drama8.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#B39F8B"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#84725E"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#241A14"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#5F4B38"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#69655B"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#525660"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#47463F"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#989E99"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#91909D"
+                }
+            ]
+        },
+        {
+            "name": "Rope", "size": 2200000, "year": 1948, "poster": "posters/drama9.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#695240"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#100D0D"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#A19788"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#907B68"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#3F281E"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#787F7E"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#495046"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#292D2B"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#3C4445"
+                }
+            ]
+        },
+        {
+            "name": "Vertigo", "size": 7300000, "year": 1958, "poster": "posters/drama15.jpg",
+            "children":
+            [
+                {
+                    "name": "Escena1", "size": 1,"color":"#610404"
+                },
+                {
+                    "name": "Escena2", "size": 1,"color":"#8B0404"
+                },
+                {
+                    "name": "Escena3", "size": 1,"color":"#C44F58"
+                },
+                {
+                    "name": "Escena4", "size": 1,"color":"#330404"
+                },
+                {
+                    "name": "Escena5", "size": 1,"color":"#1E0404"
+                },
+                {
+                    "name": "Escena6", "size": 1,"color":"#A46C64"
+                },
+                {
+                    "name": "Escena7", "size": 1,"color":"#8C544C"
+                },
+                {
+                    "name": "Escena8", "size": 1,"color":"#7C0C14"
+                },
+                {
+                    "name": "Escena9", "size": 1,"color":"#145830"
+                }
+            ]
+        }
+    ]
+}
